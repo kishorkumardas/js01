@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript first Assignment</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="show">
+	<h1>Show a string Using javascript</h1>
+	<p id="demo">Show</p>
+	<button  id="btn" onclick="myFunction()"> Click me</button>
+	<script>
+	function myFunction() {
+		var person = prompt("Please enter your name")
+   		document.getElementById("demo").innerHTML =
+        "Hello " + person + "! How are you today?";
+    }
+	</script>
+	 
+</div>
+</body>
+</html>
